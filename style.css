@@ -20,6 +20,7 @@ h1{
     font-weight: normal;
     align-self: center;
     padding-left: 2.5rem;
+    z-index: 10;
 }
 canvas{
     grid-row-start: 1;
