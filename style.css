@@ -10,7 +10,6 @@ main{
     display: grid;
     grid-template-columns: 10;
     column-gap: 2.5rem;
-    padding: 2.5rem;
 }
 
 h1{
@@ -20,6 +19,7 @@ h1{
     font-size: 6rem;
     font-weight: normal;
     align-self: center;
+    padding-left: 2.5rem;
 }
 canvas{
     grid-row-start: 1;
