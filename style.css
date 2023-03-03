@@ -33,13 +33,13 @@ img {
 h1{
     font-family: 'Favorit', sans-serif;
     grid-row-start: 1;
-    grid-column: 1/7;
+    grid-column: 1/6;
     font-size: 6rem;
     font-weight: normal;
     align-self: center;
     padding-left: 2.5rem;
     z-index: 10;
-    line-height: 6.5rem;
+    line-height: 6rem;
 }
 canvas{
     grid-row-start: 1;
