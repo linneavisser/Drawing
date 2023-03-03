@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Favorit';
+    src: URL('font/Favorit-Regular.ttf') format('truetype');
+  }
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -11,9 +16,22 @@ main{
     grid-template-columns: 10;
     column-gap: 2.5rem;
 }
+img {
+    height: 3rem;
+}
+.mark{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.burger{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
 
 h1{
-    font-family: sans-serif;
+    font-family: 'Favorit', sans-serif;
     grid-row-start: 1;
     grid-column: 1/7;
     font-size: 6rem;
